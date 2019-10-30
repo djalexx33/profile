@@ -1,0 +1,127 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: linear-gradient(rgba(230, 230, 230, 0.4), rgba(230, 230, 230, 0.4)), url("./images/ben-breitenstein-phaQLQY8o_4-unsplash.jpg");
+  background-position: center;
+  background-size: cover;
+  color: white;
+  margin: 0;
+}
+
+body * {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  margin-top: 0;
+  color: white;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 10px;
+}
+
+p {
+  margin: 15px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: #4b2f89;
+}
+
+.container > div {
+  width: 600px;
+  padding: 30px;
+  margin: 15px auto;
+  border-radius: 4px;
+  box-shadow: 0 10px 20px rgb(220, 220, 220);
+  text-align: center;
+  background-image: linear-gradient(rgba(180, 180, 180, 0.4), rgba(180, 180, 180, 0.4))
+}
+
+#header h1, img {
+  margin-bottom: 15px
+}
+
+#btn-red {
+  background-color: red;
+  color: white;
+  padding: 15px;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+#btn-red:hover {
+  background-color: orange;
+}
+
+.social-link {
+  font-size: 40px;
+  padding: 20px;
+}
+
+.social-link > a:hover {
+  color: rgb(100, 100, 100);
+}
+
+.social-link > a {
+  text-decoration: none;
+  color: rgb(200, 200, 200);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0;
+}
+
+.list-inline > li {
+  display: inline;
+}
+
+footer {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+p.copyright {
+  position: absolute;
+  width: 100%;
+  color: #fff;
+  line-height: 40px;
+  font-size: 0.7em;
+  text-align: center;
+  bottom:0;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
