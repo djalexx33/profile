@@ -107,21 +107,21 @@ p.copyright {
   bottom:0;
 }
 
-@media (max-width: 960px) {
+@media  (max-width: 1900px) {
   /* For a screen < 960px, this CSS will be read */
-  .container {
+  .container > div {
     width: 700px;
   }
 }
-@media (max-width: 720px) {
+@media (max-width: 1200px) {
   /* For a screen < 720px, this CSS will be read */
-  .container {
-    width: 500px;
+  .container > div {
+    width: 600px;
   }
 }
 @media (max-width: 540px) {
   /* For a screen < 540px, this CSS will be read */
-  .container {
-    width: 300px;
+  .container > div {
+    width: 70%;
   }
 }
